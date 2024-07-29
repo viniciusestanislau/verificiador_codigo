@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            position: absolute; top: 45%;left: 50%; transform: translate(-50%, -50%);
+            font-size: 20px;
+        }
+        #btn{
+            position: absolute; top: 55%;left: 50%; transform: translate(-50%, -50%);
+            width: 300px;
+            height: 40px;
+            border-radius: 10px;
+            background-color: greenyellow;
+            color: black;
+            border: 2px solid rgb(117, 223, 117);
+            cursor: pointer;
+            text-align: center;
+        }
+        #verificação{
+            position: absolute; top: 50%;left: 50%; transform: translate(-50%, -50%);
+            width: 290px;
+            height: 30px;
+        }
+        #res{
+            font: normal 17pt arial;
+            position: absolute; top: 20%;left: 50%; transform: translate(-50%, -50%);
+        }
+       #btn1{
+            position: absolute; top: 15%;left: 50%; transform: translate(-50%, -50%);
+            width: 300px;
+            height: 40px;
+            border-radius: 10px;
+            background-color: greenyellow;
+            color: black;
+            border: 2px solid rgb(117, 223, 117);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!--6--CRIAR BOTÕES E CRIA LUGARES PARA COLOCAR O CODIGO-->
+    <h1>Verifique seu e-mail</h1>
+    <input type="text" id="verificação" placeholder="digite o codigo">
+    <input type="button" id="btn" value="proximo" onclick="proximo()">
+    <script src="script.js"></script>
+</body>
+</html>
